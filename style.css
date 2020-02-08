@@ -140,13 +140,14 @@ li:hover{
     justify-content: space-between;
 }
 .p-container1{
-    
+    flex:1;
     font-size: 18px;
     color:#ababab;
+    padding:0 10px 0 0;
 
 }
 .p-container2{
-    
+    flex:1;
     font-size: 18px;
     color:#ababab;
 }
@@ -158,12 +159,12 @@ li:hover{
 .for-patients{
     display: flex;
     flex-direction: column;
-    width:50%;
+    
     height:350px;
     padding:20px 20px 20px 20px;
     flex-direction: column;
     border-radius: 7px;
-    flex-grow: 1;
+    flex: 1;
     background-color: #00ccb1;
     position: relative;
     overflow: hidden !important;
@@ -173,7 +174,7 @@ li:hover{
     padding:20px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    flex: 1;
     margin:0 0 0 20px;
     background-color: #00ccb1;
     border-radius: 7px;
@@ -197,13 +198,13 @@ li:hover{
 }
 .image-for-patients{
     position:absolute;
-    left: 203px;
-    top: 166px;
+    left: 228px;
+    top: 168px;
 }
 .image-for-doctors{
     position: absolute;
-    top: 167px;
-    left: 265px;
+    top: 168px;
+    left: 227px;
 }
 .spons-container{
     display: flex;
